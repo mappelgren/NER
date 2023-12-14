@@ -1,0 +1,8 @@
+huggingface
+transformers[torch]
+datasets
+evaluate
+seqeval
+accelerate -U
+jupyter
+

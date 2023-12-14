@@ -1,0 +1,18 @@
+I have written and run my code on google colab. 
+I have only tested the code on that service so I cannot guarantee that it works on a different platform.
+
+The notebook I created can be run on colab simply by running all cells in order. 
+The code requires that you connect to huggingface hub, to do this you will need to fill in two variables:
+username: appears in cell 3 and is your huggingface hub username
+key: appears in cell 3 and is an API access key which can be generated on huggingface hub. It should allow write access.
+
+An alternative would be to not push the model to the hub. This would mean altering the trainer code. 
+
+The first cell installs all the requirements for the code.
+However, I have also included a requirements.txt file in case someone would wish to run the code on a different set-up.
+
+It would then need to run as a jupyter notebook (I have included this as dependency in requirements.txt)
+However, this is untested so I cannot guarantee that it will work.
+
+
+
